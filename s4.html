@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DevOps Bootcamp Learn Linux and Become a Linux Sysadmin</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"/>
+<style>
+            .video-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 20px auto;
+            }
+            .drive-iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+</head>
+<body>
+<header>
+<nav class="wrapper">
+<i class="fa-solid fa-angle-left arrow" id="left"></i>
+<ul class="carousel">
+<!-- Navigation items will be inserted here -->
+<li class="card"><a href="index.html">1. Getting Started</a></li>
+<li class="card"><a href="s2.html">2. Setting Up the Environment</a></li>
+<li class="card"><a href="s3.html">3. The Linux Terminal in Dept</a></li>
+<li class="card" id="actuel"><a href="s4.html">5. The Linux File System</a></li>
+<li class="card"><a href="s5.html">7. User Accounts Management</a></li>
+<li class="card"><a href="s6.html">9. Linux File Permissions</a></li>
+<li class="card"><a href="s7.html">11. Linux Process Management</a></li>
+<li class="card"><a href="s8.html">13. Networking in Linux</a></li>
+<li class="card"><a href="s9.html">15. Software Management</a></li>
+<li class="card"><a href="s10.html">17. Containerizing Applications with Podman</a></li>
+<li class="card"><a href="s11.html">18. System Administration</a></li>
+<li class="card"><a href="s12.html">20. Use AI and Natural Language to Administer Linux Systems ChatGPT ShellGPT</a></li>
+<li class="card"><a href="s13.html">21. EXTRA Configure a Linux Server from Scratch VPSDNSWEBPHPMySqlWordpress</a></li>
+<li class="card"><a href="s14.html">22. Bash Shell Scripting</a></li>
+<li class="card"><a href="s15.html">24. Setting Up the Environment for the HandsOn Projects</a></li>
+<li class="card"><a href="s16.html">25. Project One Running Containerized Applications with Docker</a></li>
+<li class="card"><a href="s17.html">27. Project Two Securing and Hardening a Linux System</a></li>
+<li class="card"><a href="s18.html">29. Project Three Setting Up a Web and DNS Server</a></li>
+<li class="card"><a href="s19.html">31. Project Four Automating Linux Administrative Tasks With Ansible</a></li>
+<li class="card"><a href="s20.html">33. Project Five Project 4 Running a Virtual Mail Server</a></li>
+<li class="card"><a href="s21.html">34. Bonus IPFS The InterPlanetary File System</a></li>
+<li class="card"><a href="s22.html">35. Bonus SSH Public Key Authentication</a></li></ul>
+<i class="fa-solid fa-angle-right arrow" id="right"></i>
+</nav>
+</header>
+<!-- Navigation buttons -->
+<button class="arrow-button" id="left-arrow" onclick="navigate('s3.html')">←</button>
+<button class="arrow-button" id="right-arrow" onclick="navigate('s5.html')">→</button>
+<main>
+<!-- Video sections will be inserted here -->
+
+<section class="section" id="section16">
+<h2 class="video-title">16. Intro to The Linux Files System</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/19r2YbmOxAvF21DlMlokQjzgeraaulXt_/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 0)">Previous Video</button>
+<button onclick="navigateToSection('next', 0)">Next Video</button>
+<textarea class="notes-input" id="notes16" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section17">
+<h2 class="video-title">17. The Filesystem Hierarchy Standard FHS</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1QxVCgjE_mzj4kAz8pyDCAKJ2D_tyXqNt/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 1)">Previous Video</button>
+<button onclick="navigateToSection('next', 1)">Next Video</button>
+<textarea class="notes-input" id="notes17" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section18">
+<h2 class="video-title">18. Absolute vs. Relative Paths. Walking through the File System pwd cd tree</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1eJIjm8BJGXnv2Tg1MrHmNA0YXod7uVJ3/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 2)">Previous Video</button>
+<button onclick="navigateToSection('next', 2)">Next Video</button>
+<textarea class="notes-input" id="notes18" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section19">
+<h2 class="video-title">19. The LS Command In Depth ls</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1DFIGDPLjMUtypWDtWdyRBmMn2x613FxO/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 3)">Previous Video</button>
+<button onclick="navigateToSection('next', 3)">Next Video</button>
+<textarea class="notes-input" id="notes19" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section20">
+<h2 class="video-title">20. Understanding File Timestamps atime mtime ctime stat touch date</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1zOiX25bKsGwal39wjqYm05-MBUvsX4fM/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 4)">Previous Video</button>
+<button onclick="navigateToSection('next', 4)">Next Video</button>
+<textarea class="notes-input" id="notes20" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section21">
+<h2 class="video-title">21. Sorting Files by Timestamp</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Bt1hS7ddUM5dP7qPeK78ZztoUxMvJNx5/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 5)">Previous Video</button>
+<button onclick="navigateToSection('next', 5)">Next Video</button>
+<textarea class="notes-input" id="notes21" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section22">
+<h2 class="video-title">22. File Types in Linux ls F file</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1qTl4X1Ns9WqBVJNXxc2aKt_oL1aerfLa/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 6)">Previous Video</button>
+<button onclick="navigateToSection('next', 6)">Next Video</button>
+<textarea class="notes-input" id="notes22" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section23">
+<h2 class="video-title">23. Viewing Files Part 1 cat</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1IdvpablzufLbZcOyuCY0g7RQ9VWlMrLZ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 7)">Previous Video</button>
+<button onclick="navigateToSection('next', 7)">Next Video</button>
+<textarea class="notes-input" id="notes23" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section24">
+<h2 class="video-title">24. Viewing Files Part 2 less more</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1pNVIg08biekEN9ESX1KCwzTf-LvKIRMH/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 8)">Previous Video</button>
+<button onclick="navigateToSection('next', 8)">Next Video</button>
+<textarea class="notes-input" id="notes24" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section25">
+<h2 class="video-title">25. Viewing Files Part 3 tail head watch</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1MiQUIPq_5vvflYAmNiATrFGciXU3LJuE/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 9)">Previous Video</button>
+<button onclick="navigateToSection('next', 9)">Next Video</button>
+<textarea class="notes-input" id="notes25" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section26">
+<h2 class="video-title">26. Creating Files and Directories touch mkdir</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/17qb_3MLvwYHuAH3UMuOGv2X1XH1veMFJ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 10)">Previous Video</button>
+<button onclick="navigateToSection('next', 10)">Next Video</button>
+<textarea class="notes-input" id="notes26" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section27">
+<h2 class="video-title">27. Copying Files and Directories cp</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1qdD1ye8JlEJhosnYg73sdxlpRTYP6h4M/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 11)">Previous Video</button>
+<button onclick="navigateToSection('next', 11)">Next Video</button>
+<textarea class="notes-input" id="notes27" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section28">
+<h2 class="video-title">28. Moving and Renaming Files and Directories mv</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1R1XihvWKna18cDgcGSnJwqxDPIgvcI6m/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 12)">Previous Video</button>
+<button onclick="navigateToSection('next', 12)">Next Video</button>
+<textarea class="notes-input" id="notes28" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section29">
+<h2 class="video-title">29. Removing Files and Directories rm shred</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1O1UY_XqqnwF6e63KHPB8UZqKkgd-n6hj/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 13)">Previous Video</button>
+<button onclick="navigateToSection('next', 13)">Next Video</button>
+<textarea class="notes-input" id="notes29" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section30">
+<h2 class="video-title">30. Working With Pipes in Linux wc</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1vfzKAq_9IOZc4DwzAMCYOEWP-XEz_iTT/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 14)">Previous Video</button>
+<button onclick="navigateToSection('next', 14)">Next Video</button>
+<textarea class="notes-input" id="notes30" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section31">
+<h2 class="video-title">31. Command Redirection 2 cut tee</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Zlo8G2ccjfjMAub6lFckhYfJ_dkCOUsm/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 15)">Previous Video</button>
+<button onclick="navigateToSection('next', 15)">Next Video</button>
+<textarea class="notes-input" id="notes31" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section32">
+<h2 class="video-title">32. Finding Files and Directories Part 1 locate which</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/13ZVybz9I0tgKWeQDvLHLmt7xVIv4ZD1I/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 16)">Previous Video</button>
+<button onclick="navigateToSection('next', 16)">Next Video</button>
+<textarea class="notes-input" id="notes32" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section33">
+<h2 class="video-title">33. Finding Files and Directories Part 2 find</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1brnuHhQuMhuWf1C9u4QD1_x_IWZBGgLw/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 17)">Previous Video</button>
+<button onclick="navigateToSection('next', 17)">Next Video</button>
+<textarea class="notes-input" id="notes33" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section34">
+<h2 class="video-title">34. Find and Exec</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1qh3gVBotNtBH6xg7hup-HPyy9PaXLw3j/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 18)">Previous Video</button>
+<button onclick="navigateToSection('next', 18)">Next Video</button>
+<textarea class="notes-input" id="notes34" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section35">
+<h2 class="video-title">35. Searching for String Patterns in Text Files grep</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1ctrthVYZZKrFAcCusf4NNo3Ov2zwsdtS/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 19)">Previous Video</button>
+<button onclick="navigateToSection('next', 19)">Next Video</button>
+<textarea class="notes-input" id="notes35" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section36">
+<h2 class="video-title">36. Searching for Strings in Binary Files strings</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1EW8L13DQzVTypaRg3Bgzyt8r5RaCd9qW/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 20)">Previous Video</button>
+<button onclick="navigateToSection('next', 20)">Next Video</button>
+<textarea class="notes-input" id="notes36" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section37">
+<h2 class="video-title">37. Comparing Files cmp diff sha256</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1xtbW9C8RTBQIgeRCYe6tlt35Ey8IwYyu/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 21)">Previous Video</button>
+<button onclick="navigateToSection('next', 21)">Next Video</button>
+<textarea class="notes-input" id="notes37" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section38">
+<h2 class="video-title">38. The Basics of VIM Text Editor</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1pGXd6cZ9k758rUbeYtPqanVgpbtqcSg2/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 22)">Previous Video</button>
+<button onclick="navigateToSection('next', 22)">Next Video</button>
+<textarea class="notes-input" id="notes38" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section39">
+<h2 class="video-title">39. The VIM Editor In Depth Part 1</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1iyoBM-jmAsdhsEAEdZsBCYh--lnVjwgL/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 23)">Previous Video</button>
+<button onclick="navigateToSection('next', 23)">Next Video</button>
+<textarea class="notes-input" id="notes39" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section40">
+<h2 class="video-title">40. The VIM Editor In Depth Part 2</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1x3hhlOJ722618UDb1qS7otY9cvUdsdmw/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 24)">Previous Video</button>
+<button onclick="navigateToSection('next', 24)">Next Video</button>
+<textarea class="notes-input" id="notes40" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section41">
+<h2 class="video-title">41. Compressing and Archiving Files and Directories tar gzip</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1KUrcotvSsvP68JtOmJdJ-8YTu6y__TQF/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 25)">Previous Video</button>
+<button onclick="navigateToSection('next', 25)">Next Video</button>
+<textarea class="notes-input" id="notes41" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section42">
+<h2 class="video-title">42. Hard Links and the Inode Structure</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1TErD3Hn886GvMFd4GLIzYbFLjVH7zAqT/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 26)">Previous Video</button>
+<button onclick="navigateToSection('next', 26)">Next Video</button>
+<textarea class="notes-input" id="notes42" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section43">
+<h2 class="video-title">43. Working With Symlinks. Symlinks vs. Hard Links</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1TH0P35woFBf8nQ0qmrlNmTomWabPN9Rt/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 27)">Previous Video</button>
+<button onclick="navigateToSection('next', 27)">Next Video</button>
+<textarea class="notes-input" id="notes43" placeholder="Write your notes here..."></textarea>
+</section>
+</main>
+<!-- Footer elements -->
+<div class="footer-buttons">
+<button id="backToTop" style="display: none;">
+<i class="fas fa-arrow-up"></i>
+</button>
+<button id="exportButton">
+<i class="fa-solid fa-download"></i>
+</button>
+<input accept=".json" id="importButton" type="file"/>
+<button id="importDataButton">
+<i class="fa-solid fa-upload"></i>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

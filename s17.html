@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DevOps Bootcamp Learn Linux and Become a Linux Sysadmin</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"/>
+<style>
+            .video-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 20px auto;
+            }
+            .drive-iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+</head>
+<body>
+<header>
+<nav class="wrapper">
+<i class="fa-solid fa-angle-left arrow" id="left"></i>
+<ul class="carousel">
+<!-- Navigation items will be inserted here -->
+<li class="card"><a href="index.html">1. Getting Started</a></li>
+<li class="card"><a href="s2.html">2. Setting Up the Environment</a></li>
+<li class="card"><a href="s3.html">3. The Linux Terminal in Dept</a></li>
+<li class="card"><a href="s4.html">5. The Linux File System</a></li>
+<li class="card"><a href="s5.html">7. User Accounts Management</a></li>
+<li class="card"><a href="s6.html">9. Linux File Permissions</a></li>
+<li class="card"><a href="s7.html">11. Linux Process Management</a></li>
+<li class="card"><a href="s8.html">13. Networking in Linux</a></li>
+<li class="card"><a href="s9.html">15. Software Management</a></li>
+<li class="card"><a href="s10.html">17. Containerizing Applications with Podman</a></li>
+<li class="card"><a href="s11.html">18. System Administration</a></li>
+<li class="card"><a href="s12.html">20. Use AI and Natural Language to Administer Linux Systems ChatGPT ShellGPT</a></li>
+<li class="card"><a href="s13.html">21. EXTRA Configure a Linux Server from Scratch VPSDNSWEBPHPMySqlWordpress</a></li>
+<li class="card"><a href="s14.html">22. Bash Shell Scripting</a></li>
+<li class="card"><a href="s15.html">24. Setting Up the Environment for the HandsOn Projects</a></li>
+<li class="card"><a href="s16.html">25. Project One Running Containerized Applications with Docker</a></li>
+<li class="card" id="actuel"><a href="s17.html">27. Project Two Securing and Hardening a Linux System</a></li>
+<li class="card"><a href="s18.html">29. Project Three Setting Up a Web and DNS Server</a></li>
+<li class="card"><a href="s19.html">31. Project Four Automating Linux Administrative Tasks With Ansible</a></li>
+<li class="card"><a href="s20.html">33. Project Five Project 4 Running a Virtual Mail Server</a></li>
+<li class="card"><a href="s21.html">34. Bonus IPFS The InterPlanetary File System</a></li>
+<li class="card"><a href="s22.html">35. Bonus SSH Public Key Authentication</a></li></ul>
+<i class="fa-solid fa-angle-right arrow" id="right"></i>
+</nav>
+</header>
+<!-- Navigation buttons -->
+<button class="arrow-button" id="left-arrow" onclick="navigate('s16.html')">←</button>
+<button class="arrow-button" id="right-arrow" onclick="navigate('s18.html')">→</button>
+<main>
+<!-- Video sections will be inserted here -->
+
+<section class="section" id="section162">
+<h2 class="video-title">29. Project Overview</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1anNEmMsXTM5jpllhleFqmx0iYJWJTCC4/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 0)">Previous Video</button>
+<button onclick="navigateToSection('next', 0)">Next Video</button>
+<textarea class="notes-input" id="notes162" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section163">
+<h2 class="video-title">30. Linux Security Checklist</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1YkxEI7kGYr5Kl_acofNtz6R51Q7nnJWw/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 1)">Previous Video</button>
+<button onclick="navigateToSection('next', 1)">Next Video</button>
+<textarea class="notes-input" id="notes163" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section164">
+<h2 class="video-title">31. Securing the OpenSSH Server sshd</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1V-yZqtB5543EcFlGxhUVKiqhVp_csAnI/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 2)">Previous Video</button>
+<button onclick="navigateToSection('next', 2)">Next Video</button>
+<textarea class="notes-input" id="notes164" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section165">
+<h2 class="video-title">33. Securing the Boot Loader Grub</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1dRbbr5jNYpu70BpQhpl3clHwdsxuYj4L/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 3)">Previous Video</button>
+<button onclick="navigateToSection('next', 3)">Next Video</button>
+<textarea class="notes-input" id="notes165" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section166">
+<h2 class="video-title">34. Enforcing Password Policy</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1eniSCYd8zcUDxpD9woNYrgbT-f_E50CP/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 4)">Previous Video</button>
+<button onclick="navigateToSection('next', 4)">Next Video</button>
+<textarea class="notes-input" id="notes166" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section167">
+<h2 class="video-title">35. Locking or Disabling User Accounts</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/13_zfU2tRnfHYLb7Uw-h-ozpRKujd5Qdv/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 5)">Previous Video</button>
+<button onclick="navigateToSection('next', 5)">Next Video</button>
+<textarea class="notes-input" id="notes167" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section168">
+<h2 class="video-title">37. Giving Limited root Privileges sudoers and visudo Part 1</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1WVr28r9TehKeeuCJ884YgLoMaSCb2CiZ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 6)">Previous Video</button>
+<button onclick="navigateToSection('next', 6)">Next Video</button>
+<textarea class="notes-input" id="notes168" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section169">
+<h2 class="video-title">38. Giving Limited root Privileges sudoers and visudo Part 2</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1YewRddlX_ezs-Ct0vtFiAMRZuvMYc5ii/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 7)">Previous Video</button>
+<button onclick="navigateToSection('next', 7)">Next Video</button>
+<textarea class="notes-input" id="notes169" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section170">
+<h2 class="video-title">39. Setting Users Limits Running a DoS Attack Without root Access</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1DbbAO944Gg_GXAUNbEInQv1LOvA41MFj/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 8)">Previous Video</button>
+<button onclick="navigateToSection('next', 8)">Next Video</button>
+<textarea class="notes-input" id="notes170" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section171">
+<h2 class="video-title">40. Intro to Cracking Passwords</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/17yIyv3MA8eUeqnYsos2WnHhR7dRpsXDg/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 9)">Previous Video</button>
+<button onclick="navigateToSection('next', 9)">Next Video</button>
+<textarea class="notes-input" id="notes171" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section172">
+<h2 class="video-title">41. Cracking Linux Passwords Using John the Ripper</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1UDmY-HaRcrJpAG3HOpx8D2Ca8hUSNzsH/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 10)">Previous Video</button>
+<button onclick="navigateToSection('next', 10)">Next Video</button>
+<textarea class="notes-input" id="notes172" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section173">
+<h2 class="video-title">43. Checking Files Integrity with AIDE Part 1</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/19CJzrmJagYYAmpCoKsS5Xs-2vqfyuI4B/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 11)">Previous Video</button>
+<button onclick="navigateToSection('next', 11)">Next Video</button>
+<textarea class="notes-input" id="notes173" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section174">
+<h2 class="video-title">44. Checking Files Integrity with AIDE Part 2</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1X9k_SVsHxiK5hD2iO02koZYHSx97-yIo/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 12)">Previous Video</button>
+<button onclick="navigateToSection('next', 12)">Next Video</button>
+<textarea class="notes-input" id="notes174" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section175">
+<h2 class="video-title">46. Scanning for Rootkits rkhunter and chkrootkit</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1nNNSgc-O66Uz3h8vehOM-trOiY5aUZJk/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 13)">Previous Video</button>
+<button onclick="navigateToSection('next', 13)">Next Video</button>
+<textarea class="notes-input" id="notes175" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section176">
+<h2 class="video-title">48. Scanning for Viruses with ClamAV</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1LJjy1upFLKT4scl2RAjn9jeXdguCKZQn/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 14)">Previous Video</button>
+<button onclick="navigateToSection('next', 14)">Next Video</button>
+<textarea class="notes-input" id="notes176" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section177">
+<h2 class="video-title">50. Full Disk Encryption Using dmcrypt and LUKS</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/10C4gpn98-f0f3RTM7FKAnVIvh50jkbpZ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 15)">Previous Video</button>
+<button onclick="navigateToSection('next', 15)">Next Video</button>
+<textarea class="notes-input" id="notes177" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section178">
+<h2 class="video-title">51. Unlocking LUKS Encrypted Drives With A Keyfile</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1xobwCTkRC_R7lLfO7RK_SqQlETFuH-fT/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 16)">Previous Video</button>
+<button onclick="navigateToSection('next', 16)">Next Video</button>
+<textarea class="notes-input" id="notes178" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section179">
+<h2 class="video-title">53. Symmetric Encryption Using GnuPG</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1AVZOjodoBjbleWmaP8Qpb4Ln8VYoA9Sx/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 17)">Previous Video</button>
+<button onclick="navigateToSection('next', 17)">Next Video</button>
+<textarea class="notes-input" id="notes179" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section180">
+<h2 class="video-title">54. Using an Encrypted Text Editor EncryptPad</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1HoQxaLENqMQZf63GbMVuU1CYj8jS6vzL/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 18)">Previous Video</button>
+<button onclick="navigateToSection('next', 18)">Next Video</button>
+<textarea class="notes-input" id="notes180" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section181">
+<h2 class="video-title">55. Steganography Explained</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1GRh2v6-EGnmHrrIshWa2iloJA9HJMfeQ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 19)">Previous Video</button>
+<button onclick="navigateToSection('next', 19)">Next Video</button>
+<textarea class="notes-input" id="notes181" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section182">
+<h2 class="video-title">56. Steganography In Depth</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1wDtEUF4aObgKUD0bwcNg4MSs0A-J8f3V/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 20)">Previous Video</button>
+<button onclick="navigateToSection('next', 20)">Next Video</button>
+<textarea class="notes-input" id="notes182" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section183">
+<h2 class="video-title">57. Hide Secret Messages Through Steganography with Steghide</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1w2slC67-IfwOvAJFj-31Qa6uYK8S9cb9/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 21)">Previous Video</button>
+<button onclick="navigateToSection('next', 21)">Next Video</button>
+<textarea class="notes-input" id="notes183" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section184">
+<h2 class="video-title">59. Scanning Networks with Nmap</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Vvyi5HfiGpaL1y53WwR8m21CJ3NuFjga/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 22)">Previous Video</button>
+<button onclick="navigateToSection('next', 22)">Next Video</button>
+<textarea class="notes-input" id="notes184" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section185">
+<h2 class="video-title">60. Nmap Advanced</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/16eCA9jJ-5fDkW2uWf0nYKA-xsHeF-NFq/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 23)">Previous Video</button>
+<button onclick="navigateToSection('next', 23)">Next Video</button>
+<textarea class="notes-input" id="notes185" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section186">
+<h2 class="video-title">62. Introduction to Netfilter and Iptables</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1GrNsCQbX0eQJiueMFxIcOpf6bBpcSQA8/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 24)">Previous Video</button>
+<button onclick="navigateToSection('next', 24)">Next Video</button>
+<textarea class="notes-input" id="notes186" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section187">
+<h2 class="video-title">63. Chain Traversal in a Nutshell</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1_vfx1SkB9b3sN1IWQ_T4lhhWiXK47T88/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 25)">Previous Video</button>
+<button onclick="navigateToSection('next', 25)">Next Video</button>
+<textarea class="notes-input" id="notes187" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section188">
+<h2 class="video-title">64. Iptables Basic Usage</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1qcK5PlYKMA7UTEqQcxo6E4fIdh-2J6Aj/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 26)">Previous Video</button>
+<button onclick="navigateToSection('next', 26)">Next Video</button>
+<textarea class="notes-input" id="notes188" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section189">
+<h2 class="video-title">65. Iptables Options Flags Part 1</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1bnWzBQHFW4vTeGWEJCKk696srHI2FG3r/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 27)">Previous Video</button>
+<button onclick="navigateToSection('next', 27)">Next Video</button>
+<textarea class="notes-input" id="notes189" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section190">
+<h2 class="video-title">66. Iptables Options Flags Part 2</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1SnJ7mZXMuxyV2yT6AE_N4mToUr8GMHNR/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 28)">Previous Video</button>
+<button onclick="navigateToSection('next', 28)">Next Video</button>
+<textarea class="notes-input" id="notes190" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section191">
+<h2 class="video-title">67. Where Do We Write Iptables Rules</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1t44t8Mbp307nrVxGQKXCNNglPVkXyI56/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 29)">Previous Video</button>
+<button onclick="navigateToSection('next', 29)">Next Video</button>
+<textarea class="notes-input" id="notes191" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section192">
+<h2 class="video-title">68. Setting the Default Policy</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Ib1J3IgKYFLlEMHtCjyISCuV3goqSEW_/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 30)">Previous Video</button>
+<button onclick="navigateToSection('next', 30)">Next Video</button>
+<textarea class="notes-input" id="notes192" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section193">
+<h2 class="video-title">69. Deleting the Firewall</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/17yDc3N25pL6pThBimARwd_pwbLlQKSvU/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 31)">Previous Video</button>
+<button onclick="navigateToSection('next', 31)">Next Video</button>
+<textarea class="notes-input" id="notes193" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section194">
+<h2 class="video-title">70. Filter by IP Address</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/18xTQBTSQvmxGhCvGAn7LgrNWAK4BlO1W/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 32)">Previous Video</button>
+<button onclick="navigateToSection('next', 32)">Next Video</button>
+<textarea class="notes-input" id="notes194" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section195">
+<h2 class="video-title">71. Filter by Port</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1mON6aBedAtSaJfNd5qt2S9XgMnNhB_NR/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 33)">Previous Video</button>
+<button onclick="navigateToSection('next', 33)">Next Video</button>
+<textarea class="notes-input" id="notes195" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section196">
+<h2 class="video-title">72. Intro to Stateful Firewalls Connection Tracking</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1cOeVk3VTrZuPmG8BKjDg0D9KeHm_LlH7/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 34)">Previous Video</button>
+<button onclick="navigateToSection('next', 34)">Next Video</button>
+<textarea class="notes-input" id="notes196" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section197">
+<h2 class="video-title">73. Implementing Stateful Firewalls with Iptables</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1lcUGWOnu3tUxsnFiIVdpIUq86DWQnJpf/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 35)">Previous Video</button>
+<button onclick="navigateToSection('next', 35)">Next Video</button>
+<textarea class="notes-input" id="notes197" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section198">
+<h2 class="video-title">74. Filter by MAC Address</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1XXSQiGEqrbYrlZRM-mJfLF5skI-REugJ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 36)">Previous Video</button>
+<button onclick="navigateToSection('next', 36)">Next Video</button>
+<textarea class="notes-input" id="notes198" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section199">
+<h2 class="video-title">75. Match by Date and Time</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1yKzJGUmTvoSI5hC26p3eV4JCkOdBgt_O/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 37)">Previous Video</button>
+<button onclick="navigateToSection('next', 37)">Next Video</button>
+<textarea class="notes-input" id="notes199" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section200">
+<h2 class="video-title">76. The ACCEPT and DROP Targets</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1wJIJS3WXNI7jEVZkoU8WE7rKzxbg9dGZ/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 38)">Previous Video</button>
+<button onclick="navigateToSection('next', 38)">Next Video</button>
+<textarea class="notes-input" id="notes200" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section201">
+<h2 class="video-title">77. The LOG Target</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1hMmzxHgZcJ8h2OsjPElZBQgL7nhMFsSD/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 39)">Previous Video</button>
+<button onclick="navigateToSection('next', 39)">Next Video</button>
+<textarea class="notes-input" id="notes201" placeholder="Write your notes here..."></textarea>
+</section>
+</main>
+<!-- Footer elements -->
+<div class="footer-buttons">
+<button id="backToTop" style="display: none;">
+<i class="fas fa-arrow-up"></i>
+</button>
+<button id="exportButton">
+<i class="fa-solid fa-download"></i>
+</button>
+<input accept=".json" id="importButton" type="file"/>
+<button id="importDataButton">
+<i class="fa-solid fa-upload"></i>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

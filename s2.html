@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DevOps Bootcamp Learn Linux and Become a Linux Sysadmin</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"/>
+<style>
+            .video-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 20px auto;
+            }
+            .drive-iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+</head>
+<body>
+<header>
+<nav class="wrapper">
+<i class="fa-solid fa-angle-left arrow" id="left"></i>
+<ul class="carousel">
+<!-- Navigation items will be inserted here -->
+<li class="card"><a href="index.html">1. Getting Started</a></li>
+<li class="card" id="actuel"><a href="s2.html">2. Setting Up the Environment</a></li>
+<li class="card"><a href="s3.html">3. The Linux Terminal in Dept</a></li>
+<li class="card"><a href="s4.html">5. The Linux File System</a></li>
+<li class="card"><a href="s5.html">7. User Accounts Management</a></li>
+<li class="card"><a href="s6.html">9. Linux File Permissions</a></li>
+<li class="card"><a href="s7.html">11. Linux Process Management</a></li>
+<li class="card"><a href="s8.html">13. Networking in Linux</a></li>
+<li class="card"><a href="s9.html">15. Software Management</a></li>
+<li class="card"><a href="s10.html">17. Containerizing Applications with Podman</a></li>
+<li class="card"><a href="s11.html">18. System Administration</a></li>
+<li class="card"><a href="s12.html">20. Use AI and Natural Language to Administer Linux Systems ChatGPT ShellGPT</a></li>
+<li class="card"><a href="s13.html">21. EXTRA Configure a Linux Server from Scratch VPSDNSWEBPHPMySqlWordpress</a></li>
+<li class="card"><a href="s14.html">22. Bash Shell Scripting</a></li>
+<li class="card"><a href="s15.html">24. Setting Up the Environment for the HandsOn Projects</a></li>
+<li class="card"><a href="s16.html">25. Project One Running Containerized Applications with Docker</a></li>
+<li class="card"><a href="s17.html">27. Project Two Securing and Hardening a Linux System</a></li>
+<li class="card"><a href="s18.html">29. Project Three Setting Up a Web and DNS Server</a></li>
+<li class="card"><a href="s19.html">31. Project Four Automating Linux Administrative Tasks With Ansible</a></li>
+<li class="card"><a href="s20.html">33. Project Five Project 4 Running a Virtual Mail Server</a></li>
+<li class="card"><a href="s21.html">34. Bonus IPFS The InterPlanetary File System</a></li>
+<li class="card"><a href="s22.html">35. Bonus SSH Public Key Authentication</a></li></ul>
+<i class="fa-solid fa-angle-right arrow" id="right"></i>
+</nav>
+</header>
+<!-- Navigation buttons -->
+<button class="arrow-button" id="left-arrow" onclick="navigate('index.html')">←</button>
+<button class="arrow-button" id="right-arrow" onclick="navigate('s3.html')">→</button>
+<main>
+<!-- Video sections will be inserted here -->
+
+<section class="section" id="section2">
+<h2 class="video-title">2. Linux Distributions</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/12QdzJPGQpJftLV2p_1GAbCj-5jAUKZLE/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 0)">Previous Video</button>
+<button onclick="navigateToSection('next', 0)">Next Video</button>
+<textarea class="notes-input" id="notes2" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section3">
+<h2 class="video-title">3. Installing Ubuntu in a VM</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/15QG7HtQqLOk0YLrBm2MOxvArSYugCftu/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 1)">Previous Video</button>
+<button onclick="navigateToSection('next', 1)">Next Video</button>
+<textarea class="notes-input" id="notes3" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section4">
+<h2 class="video-title">4. Things to Do After Installing Ubuntu</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Qcm943TO2yqsxvBx8Rlm3AC8GAE-YmMf/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 2)">Previous Video</button>
+<button onclick="navigateToSection('next', 2)">Next Video</button>
+<textarea class="notes-input" id="notes4" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section5">
+<h2 class="video-title">5. Installing CentOS in a VM</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1OI_brZnuf0k0CXw-bmlOJtChoBsUGLQ5/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 3)">Previous Video</button>
+<button onclick="navigateToSection('next', 3)">Next Video</button>
+<textarea class="notes-input" id="notes5" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section6">
+<h2 class="video-title">6. Migrating to Linux</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1z5673ooOueZVzPcolN-6r59emXYLEy9v/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 4)">Previous Video</button>
+<button onclick="navigateToSection('next', 4)">Next Video</button>
+<textarea class="notes-input" id="notes6" placeholder="Write your notes here..."></textarea>
+</section>
+</main>
+<!-- Footer elements -->
+<div class="footer-buttons">
+<button id="backToTop" style="display: none;">
+<i class="fas fa-arrow-up"></i>
+</button>
+<button id="exportButton">
+<i class="fa-solid fa-download"></i>
+</button>
+<input accept=".json" id="importButton" type="file"/>
+<button id="importDataButton">
+<i class="fa-solid fa-upload"></i>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
